@@ -8,11 +8,14 @@ Criar usuários com TOKEN ID
 Basta criar um usuário e escolher se deseja
 Criar com token id ou somente ssh
 
-# SSHPLUS
+# SSH PLUS - ASAS DEV
 
 apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/asas-dev-web/crazy/main/Plus && chmod 777 Plus && ./Plus
 
 # Acesso Root
 
 wget https://raw.githubusercontent.com/asas-dev-web/crazy/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
-# SSHPLUS
+
+# GLtunnel CheckerUser 2.2.13
+
+bash <(curl -sL https://raw.githubusercontent.com/DuTra01/CheckUser/master/install.sh)
